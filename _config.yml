@@ -4,19 +4,19 @@
 permalink:           pretty
 
 # Setup
-title:               JPEG-AI MMSP Challenge
-tagline:             'Learning-based image compression'
-description:         'JPEG-AI Call for Evidence <br> IEEE MMSP2020 Challenge'
-url:                 http://jpegai.github.io
+title:               ANR IMPROVED
+tagline:             ''
+description:         'Interpolation et aMelioration des images et vidéos comPRressees pOur la preuVE juriDique'
+url:                 https://improved-anr.github.io/
 baseurl:             ''
 paginate:            5
 plugins:             [jekyll-paginate]
 
 # About/contact
 author:
-  name:              Joao Ascenso
-  url:               https://jpeg.org
-  email:             joao.ascenso@lx.it.pt
+  name:              IMPROVED
+  url:               https://improved-anr.github.io/
+  email:             improved_anr@ml.univ-poitiers.fr
 
 # Custom vars
 version:             1.0.0
