@@ -11,6 +11,6 @@ Dans le traitement de leurs affaires judiciaires, les forces de sécurité inté
 Les outils à l’état de l’art en particulier à base d’Intelligence Artificielle, peuvent même conduire à des erreurs d’interprétation.​
 
 <p align="center">
-  <img src="public/ex_sr.png" alt="Exemple de plaque d'imatriculation super résolue"/>
+  <img src="/public/ex_sr.png" alt="Exemple de plaque d'imatriculation super résolue"/>
 </p>
 
