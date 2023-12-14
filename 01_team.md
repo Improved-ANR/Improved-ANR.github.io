@@ -15,7 +15,7 @@ permalink: /1-team/
 
 ​
 
-[![](images/xlim.png)](https://www.xlim.fr/)
+<a href="https://www.xlim.fr/" target="_blank" class="image"><img src="/public/xlim.png" alt="" style="width:70%;" /></a>
 
 #### XLIM
 
@@ -25,7 +25,7 @@ permalink: /1-team/
 
 ​
 
-[![](images/borili.png)](https://centreborelli.ens-paris-saclay.fr/fr)
+[![](/public/borili.png)](https://centreborelli.ens-paris-saclay.fr/fr)
 
 #### CENTRE BORELLI
 
@@ -35,7 +35,7 @@ permalink: /1-team/
 
 ​
 
-[![](images/ceraps.jpg)](https://ceraps.univ-lille.fr/)
+[![](/public/ceraps.jpg)](https://ceraps.univ-lille.fr/)
 
 #### CERAPS
 
