@@ -4,7 +4,7 @@ title: Partenaires
 permalink: /1-team/
 ---
 
-<a href="https://www.ektacom.net/" target="_blank" class="image"><img src="public/ektacom.jpg" alt="" style="width:70%;" /></a>
+<a href="https://www.ektacom.net/" target="_blank" class="image"><img src="/public/ektacom.jpg" alt="" style="width:70%;" /></a>
 
 #### EKTACOM
 
