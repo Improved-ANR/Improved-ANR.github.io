@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               JPEG-AI MMSP Challenge
+tagline:             'Learning-based image compression'
+description:         'JPEG-AI Call for Evidence <br> IEEE MMSP2020 Challenge'
+url:                 http://jpegai.github.io
+baseurl:             ''
+paginate:            5
+plugins:             [jekyll-paginate]
+
+# About/contact
+author:
+  name:              Joao Ascenso
+  url:               https://jpeg.org
+  email:             joao.ascenso@lx.it.pt
+
+# Custom vars
+version:             1.0.0
