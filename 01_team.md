@@ -7,7 +7,7 @@ permalink: /1-team/
 					<div class="features">
 						<article>
 							<a href="https://www.ektacom.net/" target="_blank" class="image"><img
-									src="images/ektacom.jpg" alt="" style="width:70%;" /></a>
+									src="public/ektacom.jpg" alt="" style="width:70%;" /></a>
 							<div class="inner">
 								<h4>EKTACOM</h4>
 								<ul>
@@ -19,7 +19,7 @@ permalink: /1-team/
 							</div>
 						</article>
 						<article>
-							<a href="https://www.xlim.fr/" target="_blank" class="image"><img src="images/xlim.png"
+							<a href="https://www.xlim.fr/" target="_blank" class="image"><img src="public/xlim.png"
 									alt="" style="width:70%;" /></a>
 							<div class="inner">
 								<h4>XLIM</h4>
@@ -33,7 +33,7 @@ permalink: /1-team/
 						</article>
 						<article>
 							<a href="https://centreborelli.ens-paris-saclay.fr/fr" target="_blank" class="image"><img
-									src="images/borili.png" alt="" style="width:70%;" /></a>
+									src="public/borili.png" alt="" style="width:70%;" /></a>
 							<div class="inner">
 								<h4>CENTRE BORELLI</h4>
 								<ul>
@@ -45,7 +45,7 @@ permalink: /1-team/
 						</article>
 						<article>
 							<a href="https://ceraps.univ-lille.fr/" target="_blank" class="image"><img
-									src="images/ceraps.jpg" alt="" style="width:60%;" /></a>
+									src="public/ceraps.jpg" alt="" style="width:60%;" /></a>
 							<div class="inner">
 								<h4>CERAPS</h4>
 								<ul>
