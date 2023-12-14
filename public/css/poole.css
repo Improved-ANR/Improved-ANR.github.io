@@ -376,6 +376,41 @@ tbody tr:nth-child(odd) th {
 .related-posts li a:hover small {
   color: inherit;
 }
+article {
+	display: block;}
+
+	.features article {
+		border-top: solid 3px #f4f4f4;
+		margin-bottom: 2.25em;
+		padding-top: 2.25em;
+	}
+
+		.features article:first-child {
+			border-top: 0;
+			padding-top: 0;
+		}
+
+		.features article .image {
+			display: inline-block;
+			padding-right: 2.5em;
+			vertical-align: middle;
+			width: 48%;
+		}
+
+			.features article .image img {
+				display: block;
+				width: 100%;
+			}
+
+		.features article .inner {
+			display: inline-block;
+			vertical-align: middle;
+			width: 50%;
+		}
+
+			.features article .inner > :last-child {
+				margin-bottom: 0;
+			}
 
 
 /*
@@ -428,3 +463,4 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
