@@ -4,6 +4,20 @@ title: Partenaires
 permalink: /1-team/
 ---
 
+<article>
+							<a href="https://www.ektacom.net/" target="_blank" class="image"><img
+									src="/public/ektacom.jpg" alt="" style="width:70%;" /></a>
+							<div class="inner">
+								<h4>EKTACOM</h4>
+								<ul>
+									<li>Coordination du projet.</li>
+									<li>compression vidéo.</li>
+									<li>Réduction artéfacts de compression.</li>
+									<li>Mise en œuvre réaliste des algorithmes d'amélioration</li>
+								</ul> ​
+							</div>
+						</article>
+      
 <a href="https://www.ektacom.net/" target="_blank" class="image"><img src="/public/ektacom.jpg" alt="" style="width:70%;" /></a>
 
 #### EKTACOM
