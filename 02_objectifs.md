@@ -10,4 +10,4 @@ Dans le traitement de leurs affaires judiciaires, les forces de sécurité inté
 
 Les outils à l’état de l’art en particulier à base d’Intelligence Artificielle, peuvent même conduire à des erreurs d’interprétation.​
 
-![](images/ex_sr.png)
+![](/public/ex_sr.png)
