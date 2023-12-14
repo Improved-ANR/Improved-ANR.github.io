@@ -44,7 +44,7 @@ permalink: /1-team/
 
 ​
 
-[![](images/snps.png)](https://www.police-nationale.interieur.gouv.fr/)
+[![](/public/snps.png)](https://www.police-nationale.interieur.gouv.fr/)
 
 #### SNPS
 
