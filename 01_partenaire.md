@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Partenaires
-permalink: /1-team/
+permalink: /1-partenaire/
 ---
 
 
