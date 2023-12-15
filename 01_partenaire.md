@@ -6,46 +6,41 @@ permalink: /1-partenaire/
 
 
 [![](/public/ektacom.jpg)](https://www.ektacom.net/){:target="_blank"}
-### EKTACOM
+* **EKTACOM**
 
- * Coordination du projet.
- * compression vidéo.
- * Réduction artéfacts de compression.
- * Mise en œuvre réaliste des algorithmes d'amélioration
-
-​
+   - Coordination du projet.
+   - compression vidéo.
+   - Réduction artéfacts de compression.
+   - Mise en œuvre réaliste des algorithmes d'amélioration
 
 
 [![](/public/xlim.png)](https://www.xlim.fr/){:target="_blank"}
-### XLIM
+* **XLIM**
 
- * Approches explicables de super-résolution intra-image guidée par modèles de perception.
- * Développement des métriques de qualité et d’utilité.
- * Définition du protocole de validation des traitements.​
+   - Approches explicables de super-résolution intra-image guidée par modèles de perception.
+   - Développement des métriques de qualité et d’utilité.
+   - Définition du protocole de validation des traitements.​
 
 ​
-
 [![](/public/borili.png)](https://centreborelli.ens-paris-saclay.fr/fr){:target="_blank"}
-### CENTRE BORELLI
+* **CENTRE BORELLI**
 
- * Développement d’algorithmes aveugle de restauration vidéo bas niveau.​​
- * Débruitage, défloutage et super-résolution multi-images.​​
- * Explicabilité des traitements.​
+   - Développement d’algorithmes aveugle de restauration vidéo bas niveau.​​
+   - Débruitage, défloutage et super-résolution multi-images.​​
+   - Explicabilité des traitements.​
 
 ​
-
 [![](/public/ceraps.jpg)](https://ceraps.univ-lille.fr/){:target="_blank"}
-### CERAPS
+* **CERAPS**
 
- * Etude des aspects légaux et sociétaux des outils d’amélioration d’images : réglementation applicable, faisabilité juridique, perception sociale.​
- * Définition de critères pour la loyauté de la preuve.​
-
+   - Etude des aspects légaux et sociétaux des outils d’amélioration d’images : réglementation applicable, faisabilité juridique, perception sociale.​
+   - Définition de critères pour la loyauté de la preuve.​
 ​
 
 [![](/public/snps.png)](https://www.police-nationale.interieur.gouv.fr/){:target="_blank"}
-### SNPS
+* **SNPS**
 
- * Besoins utilisateurs​.
- * Définition niveaux utilité réelles​.
+   - Besoins utilisateurs​.
+   - Définition niveaux utilité réelles​.
 
 ​
