@@ -13,6 +13,8 @@ visible: 1
 
 ​
 <div style='text-align: justify;'>
-<h5><b>Co-financé et suivi par le service du Premier ministre (PM) via deux de ses entités : le Secrétariat général de la défense et la sécurité nationale (SGDSN) et l’Agence nationale de la sécurité et des systèmes d’information (ANSSI)</h5></b>
+<h5><b>
+  Co-financé et suivi par le service du Premier ministre (PM) via deux de ses entités : le Secrétariat général de la défense et la sécurité nationale (SGDSN) et l’Agence nationale de la sécurité et des systèmes d’information (ANSSI)
+</b></h5>
 </div>
 
