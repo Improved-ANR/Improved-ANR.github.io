@@ -1,0 +1,53 @@
+# Permalinks
+permalink: pretty
+
+# Setup
+title: ANR IMPROVED
+# tagline: 'Enhancing Research and Collaboration'
+# description: 'A platform dedicated to improving research initiatives.'
+url: https://improved-anr.github.io/
+baseurl: ''
+paginate: 5
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+# About/contact
+author:
+  name: IMPROVED
+  url: https://improved-anr.github.io/
+  email: improved_anr@ml.univ-poitiers.fr
+
+# Custom vars
+version: 1.0.0
+
+# Navigation
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Partenaire"
+    url: "/01_partenaire/"
+  - title: "Objectifs"
+    url: "/02_objectifs/"
+  - title: "Actualités"
+    url: "/03_actualites/"
+  - title: "Offre de Postes"
+    url: "/04_offre-de-postes/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

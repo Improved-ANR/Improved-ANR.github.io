@@ -1,0 +1,19 @@
+---
+layout: default
+title: Accueil
+---
+
+<div class="jumbotron">
+  <h1 class="display-4">Bienvenue à la page web du projet ANR IMPROVED</h1>
+  <p class="lead">Ceci est la page d'accueil du projet Improved ANR. Ici, vous pouvez trouver des informations sur nos objectifs, projets et équipe.</p>
+  <hr class="my-4">
+  <p>Découvrez nos derniers projets et rencontrez notre équipe.</p>
+  <a class="btn btn-primary btn-lg" href="{{ '/02_objectifs/' | relative_url }}" role="button">En savoir plus</a>
+  <hr class="my-4">
+
+</div>
+
+{% assign home_page = site.pages | where: "permalink", "/home/" | first %}
+<div class="home-content">
+  {{ home_page.content | markdownify }}
+</div>

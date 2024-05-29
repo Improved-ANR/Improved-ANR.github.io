@@ -1,0 +1,4 @@
+{% capture home_content %}
+{% include_relative home.md %}
+{% endcapture %}
+{{ home_content | markdownify }}

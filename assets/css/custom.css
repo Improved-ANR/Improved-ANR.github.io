@@ -1,0 +1,57 @@
+/* custom.css 
+   Auteur : A. SENDJASNI */
+
+.post {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .post.open {
+    max-height: 1000px; /* ou une valeur suffisamment grande */
+  }
+  
+body {
+  font-family: Arial, sans-serif; /* Définissez la police par défaut ici */
+  font-size: 16px; /* Taille de la police par défaut */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif; /* Définissez la police pour les titres */
+}
+
+.post-preview {
+  margin-bottom: 20px;
+}
+
+.post-preview h2 a {
+  cursor: pointer;
+}
+
+.post-content {
+  display: none; /* Cache initialement le contenu du post */
+}
+
+.post-content.open {
+  display: block; /* Affiche le contenu du post lorsque le post est ouvert */
+}
+
+.image-row {
+  display: flex;
+  justify-content: center; /* Centre l'image horizontalement */
+  margin-bottom: 20px;
+}
+
+.image-column img {
+  width: 100%;
+  max-width: 300px; /* Taille maximale pour l'image réduite */
+  height: auto;
+  cursor: pointer;
+  border: 1px solid #ddd; /* Optionnel : bordure autour de l'image */
+  padding: 5px; /* Optionnel : espacement autour de l'image */
+  transition: transform 0.2s; /* Optionnel : effet de zoom au survol */
+}
+
+.image-column img:hover {
+  transform: scale(1.05); /* Optionnel : agrandissement léger au survol */
+}

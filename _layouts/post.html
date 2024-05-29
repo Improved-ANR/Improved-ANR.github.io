@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="post-preview">
+  <h2><a href="#post-{{ page.id | slugify }}" class="read-more">{{ page.title }}</a></h2>
+</div>
+<div class="post-content" id="post-{{ page.id | slugify }}">
+  <p class="text-muted">Publié le {{ page.date | date: "%d %B %Y" }}</p>
+  <hr class="my-4">
+  <!-- <div class="content">{{ content }}</div> -->
+</div>
