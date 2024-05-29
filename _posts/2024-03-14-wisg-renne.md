@@ -3,7 +3,7 @@ layout: post
 title: Participation au WISG'2024
 ---
 
-Nous avons participé au Workshop interdisciplinaire sur la sécurité globale ([WISG'2024](https://wisg.fr/){:target="_blank"}), qui s'est déroulé les 14 et 15 mars 2024 au Couvent des Jacobins à Rennes.
+Participation au Workshop interdisciplinaire sur la sécurité globale ([WISG'2024](https://wisg.fr/){:target="_blank"}), qui s'est déroulé les 14 et 15 mars 2024 au Couvent des Jacobins à Rennes.
 
 <div class="image-row">
   <div class="image-column">
