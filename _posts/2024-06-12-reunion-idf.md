@@ -4,7 +4,7 @@ title: Réunion d'équipe du 12 Juin 2024
 ---
 
 
-Nous avons eu une réunion trimestrielle du projet à l'ENS Paris-Saclay, Gif-sur-Yvette. 
+Réunion trimestrielle du projet à l'ENS Paris-Saclay, Gif-sur-Yvette. 
 
 <div class="image-row">
     <div class="image-column">
