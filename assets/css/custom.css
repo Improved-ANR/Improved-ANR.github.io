@@ -1,23 +1,25 @@
 /* custom.css 
    Auteur : A. SENDJASNI */
 
-.post {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-  }
-  
-  .post.open {
-    max-height: 1000px; /* ou une valeur suffisamment grande */
-  }
-  
+/* General Body and Typography */
 body {
-  font-family: Arial, sans-serif; /* Définissez la police par défaut ici */
-  font-size: 16px; /* Taille de la police par défaut */
+  font-family: Arial, sans-serif; /* Set default font */
+  font-size: 16px; /* Default font size */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, sans-serif; /* Définissez la police pour les titres */
+  font-family: Arial, sans-serif; /* Font for headings */
+}
+
+/* Post Styles */
+.post {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.post.open {
+  max-height: 1000px; /* Adjust as needed */
 }
 
 .post-preview {
@@ -29,29 +31,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-content {
-  display: none; /* Cache initialement le contenu du post */
+  display: none; /* Initially hide the post content */
 }
 
 .post-content.open {
-  display: block; /* Affiche le contenu du post lorsque le post est ouvert */
+  display: block; /* Show post content when opened */
 }
 
+/* Image Layout */
 .image-row {
-  display: flex;
-  justify-content: center; /* Centre l'image horizontalement */
-  margin-bottom: 20px;
+  display: flex; /* Utilisation de flexbox pour aligner les colonnes */
+  justify-content: center; /* Centrer les colonnes horizontalement */
+  align-items: flex-start; /* Aligner les colonnes en haut */
+  margin-bottom: 20px; /* Espacement entre les lignes */
+}
+
+.image-column {
+  flex: 1; /* Les colonnes auront une largeur égale */
+  margin: 0 10px; /* Espacement entre les colonnes */
 }
 
 .image-column img {
-  width: 100%;
-  max-width: 300px; /* Taille maximale pour l'image réduite */
-  height: auto;
-  cursor: pointer;
-  border: 1px solid #ddd; /* Optionnel : bordure autour de l'image */
-  padding: 5px; /* Optionnel : espacement autour de l'image */
-  transition: transform 0.2s; /* Optionnel : effet de zoom au survol */
+  max-width: 100%; /* Image occupe toute la largeur de sa colonne */
+  height: auto; /* Hauteur proportionnelle à la largeur */
+  max-height: 300px; /* Limite la hauteur de l'image */
 }
 
 .image-column img:hover {
-  transform: scale(1.05); /* Optionnel : agrandissement léger au survol */
+  transform: scale(1.05); /* Optional slight zoom on hover */
 }
