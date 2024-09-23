@@ -9,7 +9,7 @@ Réunion trimestrielle du projet à l'ENS Paris-Saclay, Gif-sur-Yvette.
 <div class="image-row">
     <div class="image-column">
         <a href="/public/ens.jpg" target="_blank">
-            <img src="/public/ens.jpg" alt="Cliquez pour voir la photo" style="width: 50%; height: auto;">
+            <img src="/public/ens.jpg" alt="Cliquez pour voir la photo">
         </a>
     </div>
 
