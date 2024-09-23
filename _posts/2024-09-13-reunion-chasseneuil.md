@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Réunion d'équipe du 13 Septembre 2024
+title: Réunion trimestrielle du consortium du 13 Septembre 2024
 ---
 
 
