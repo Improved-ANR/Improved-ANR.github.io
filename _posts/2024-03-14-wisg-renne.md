@@ -18,3 +18,23 @@ Participation au Workshop interdisciplinaire sur la sécurité globale ([WISG'20
     </a>
   </div>
 </div>
+
+<style>
+  .image-row {
+    display: flex; /* Utilisation de flexbox pour aligner les colonnes */
+    justify-content: center; /* Centrer les colonnes horizontalement */
+    align-items: flex-start; /* Aligner les colonnes en haut */
+    margin-bottom: 20px; /* Espacement entre les lignes */
+  }
+
+  .image-column {
+    flex: 1; /* Les colonnes auront une largeur égale */
+    margin: 0 10px; /* Espacement entre les colonnes */
+  }
+
+  .image-column img {
+    max-width: 100%; /* Image occupe toute la largeur de sa colonne */
+    height: auto; /* Hauteur proportionnelle à la largeur */
+    max-height: 300px; /* Limite la hauteur de l'image */
+  }
+</style>
