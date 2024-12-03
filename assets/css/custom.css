@@ -61,3 +61,12 @@ h1, h2, h3, h4, h5, h6 {
 .image-column img:hover {
   transform: scale(1.05); /* Optional slight zoom on hover */
 }
+
+.image-row {
+  outline: 2px dashed blue; /* Highlight the row */
+}
+.image-column {
+  outline: 2px dashed red; /* Highlight each column */
+  height: 100px; /* Set a fixed height for visibility */
+  background-color: rgba(255, 0, 0, 0.2); /* Add background color */
+}

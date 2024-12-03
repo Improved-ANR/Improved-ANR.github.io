@@ -3,8 +3,7 @@ permalink: pretty
 
 # Setup
 title: ANR IMPROVED
-# tagline: 'Enhancing Research and Collaboration'
-# description: 'A platform dedicated to improving research initiatives.'
+
 url: https://improved-anr.github.io/
 baseurl: ''
 paginate: 5
