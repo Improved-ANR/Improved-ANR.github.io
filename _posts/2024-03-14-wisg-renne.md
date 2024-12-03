@@ -8,7 +8,7 @@ Participation au Workshop interdisciplinaire sur la sécurité globale ([WISG'20
 <div class="image-row">
   <div class="image-column">
     <a href="/public/wisg.jpg" target="_blank">
-      <img src="/public/wisg.jpg" alt="Cliquez pour voir le poster en plein écran">
+      <img src="/public/wisg.jpg" alt="Cliquez pour voir la photo en plein écran">
     </a>
   </div>
 
