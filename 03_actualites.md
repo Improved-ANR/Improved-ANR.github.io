@@ -4,7 +4,7 @@ title: Actualités
 permalink: /03_actualites/
 ---
 
-Voici les dernières actualités de notre équipe :
+Cette page regroupe les dernières activités du consortium IMPROVED ainsi que les réunions trimestrielles.
 <hr class="my-4">
 
 {% for post in site.posts %}
