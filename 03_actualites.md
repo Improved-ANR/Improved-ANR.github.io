@@ -10,10 +10,6 @@ Cette page regroupe les dernières activités du consortium IMPROVED ainsi que l
 {% for post in site.posts %}
 <div class="post-preview">
   <h2><a href="#post-{{ post.id | slugify }}" class="read-more">{{ post.title }}</a></h2>
- <!-- <p class="text-muted">{{ post.date | date: "%d %B %Y" }}</p>
-  <p>{{ post.excerpt }}</p>
-</div>
- <div class="post-content" id="post-{{ post.id | slugify }}"-->
   <div class="content">{{ post.content }}</div>
 </div> 
 <hr>
