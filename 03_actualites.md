@@ -13,8 +13,8 @@ Voici les dernières actualités de notre équipe :
   <p class="text-muted">{{ post.date | date: "%d %B %Y" }}</p>
   <p>{{ post.excerpt }}</p>
 </div>
-<!-- <div class="post-content" id="post-{{ post.id | slugify }}">
+ <div class="post-content" id="post-{{ post.id | slugify }}">
   <div class="content">{{ post.content }}</div>
-</div> -->
+</div> 
 <hr>
 {% endfor %}
