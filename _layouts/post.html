@@ -2,11 +2,64 @@
 layout: default
 ---
 
-<div class="post-preview">
-  <h2><a href="#post-{{ page.id | slugify }}" class="read-more">{{ page.title }}</a></h2>
-</div>
-<div class="post-content" id="post-{{ page.id | slugify }}">
-  <p class="text-muted">Publié le {{ page.date | date: "%d %B %Y" }}</p>
-  <hr class="my-4">
-  <div class="content">{{ content }}</div>
-</div>
+<article class="section" style="padding-top: 100px;">
+  <div class="container" style="max-width: 900px;">
+    <header class="post-header" style="margin-bottom: 2rem; text-align: center;">
+      <h1 class="post-title" style="font-size: 2.5rem; margin-bottom: 1rem;">{{ page.title }}</h1>
+      <p class="post-date" style="color: var(--text-light); font-size: 1.1rem;">
+        <i class="far fa-calendar-alt"></i> Publié le {{ page.date | date: "%d %B %Y" }}
+      </p>
+    </header>
+    
+    <div class="post-content" style="font-size: 1.1rem; line-height: 1.8;">
+      {{ content }}
+    </div>
+  </div>
+</article>
+
+<style>
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    margin: 2rem 0;
+  }
+  
+  .post-content .image-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .post-content .image-column {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .post-content .image-column img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    transition: transform var(--transition-base);
+  }
+  
+  .post-content .image-column img:hover {
+    transform: scale(1.05);
+  }
+  
+  .post-content a {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color var(--transition-base);
+  }
+  
+  .post-content a:hover {
+    border-bottom-color: var(--primary-color);
+  }
+</style>
