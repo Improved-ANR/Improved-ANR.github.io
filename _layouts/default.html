@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="fr">
 
   {% include head.html %}
 
-  <body class="theme-base-09">
-
-    {% include sidebar.html %}
-
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <img src="/public/logo_def_.png">
-        </div>
-      </div>
-
-      <div class="container content">
-        {{ content }}
-      </div>
+  <body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+      <div class="loader-spinner"></div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <!-- Modern Header -->
+    {% include header.html %}
 
+    <!-- Main Content -->
+    <main style="min-height: 100vh;">
+      {{ content }}
+    </main>
+
+    <!-- Modern Footer -->
+    {% include footer.html %}
+
+    <!-- Scripts -->
     <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/modern.js"></script>
   </body>
 </html>

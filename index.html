@@ -3,17 +3,153 @@ layout: default
 title: Accueil
 ---
 
-<div class="jumbotron">
-  <h1 class="display-4">Bienvenue à la page web du projet ANR IMPROVED</h1>
-  <p class="lead">Ceci est la page d'accueil du projet Improved ANR. Ici, vous pouvez trouver des informations sur nos objectifs, projets et équipe.</p>
-  <hr class="my-4">
-  <p>Découvrez nos derniers projets et rencontrez notre équipe.</p>
-  <a class="btn btn-primary btn-lg" href="{{ '/03_actualites/' | relative_url }}" role="button">En savoir plus</a>
-  <hr class="my-4">
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">Bienvenue à la page web du projet ANR IMPROVED</h1>
+    <p class="hero-subtitle">
+      Amélioration intelligente et probante de vidéos pour l'exploitation judiciaire et la défense. 
+      Découvrez nos objectifs, nos projets innovants et notre équipe de recherche.
+    </p>
+    <div class="hero-buttons">
+      <a href="{{ '/02_objectifs/' | relative_url }}" class="btn btn-primary">
+        <span>Découvrir nos objectifs</span>
+        <i class="fas fa-arrow-right btn-icon"></i>
+      </a>
+      <a href="{{ '/03_actualites/' | relative_url }}" class="btn btn-secondary">
+        <span>Voir les actualités</span>
+        <i class="fas fa-newspaper btn-icon"></i>
+      </a>
+    </div>
+  </div>
+</section>
 
-</div>
+<!-- Features Section -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Notre Projet</h2>
+    <p class="section-subtitle">
+      IMPROVED vise à combler les difficultés rencontrées par la Police Scientifique 
+      dans l'amélioration des vidéos susceptibles d'apporter des éléments probants.
+    </p>
+  </div>
+  
+  <div class="cards-container">
+    <div class="card fade-in-up">
+      <div class="card-icon">
+        <i class="fas fa-microscope"></i>
+      </div>
+      <h3 class="card-title">Recherche Avancée</h3>
+      <p class="card-description">
+        Développement d'algorithmes de pointe pour la restauration et l'amélioration 
+        vidéo basés sur l'intelligence artificielle et les modèles de perception.
+      </p>
+    </div>
+    
+    <div class="card fade-in-up">
+      <div class="card-icon">
+        <i class="fas fa-balance-scale"></i>
+      </div>
+      <h3 class="card-title">Aspects Légaux</h3>
+      <p class="card-description">
+        Étude approfondie des aspects juridiques et sociétaux des outils d'amélioration 
+        d'images pour garantir la loyauté de la preuve.
+      </p>
+    </div>
+    
+    <div class="card fade-in-up">
+      <div class="card-icon">
+        <i class="fas fa-users"></i>
+      </div>
+      <h3 class="card-title">Collaboration</h3>
+      <p class="card-description">
+        Partenariat entre laboratoires de recherche académiques et services de 
+        police scientifique pour des solutions adaptées aux besoins réels.
+      </p>
+    </div>
+    
+    <div class="card fade-in-up">
+      <div class="card-icon">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h3 class="card-title">Validation Rigoureuse</h3>
+      <p class="card-description">
+        Protocoles stricts de validation et métriques de qualité pour garantir 
+        la fiabilité et l'utilité des traitements proposés.
+      </p>
+    </div>
+  </div>
+</section>
 
-{% assign home_page = site.pages | where: "permalink", "/home/" | first %}
-<div class="home-content">
-  {{ home_page.content | markdownify }}
-</div>
+<!-- Latest News Preview -->
+<section class="section" style="background: var(--bg-secondary);">
+  <div class="section-header">
+    <h2 class="section-title">Dernières Actualités</h2>
+    <p class="section-subtitle">
+      Suivez les dernières activités et réunions du consortium IMPROVED
+    </p>
+  </div>
+  
+  <div class="posts-grid">
+    {% for post in site.posts limit:3 %}
+    <article class="post-card">
+      {% if post.image %}
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image">
+      {% else %}
+      <div class="post-image" style="background: var(--gradient-primary);"></div>
+      {% endif %}
+      <div class="post-card-content">
+        <p class="post-card-date">{{ post.date | date: "%d %B %Y" }}</p>
+        <h3 class="post-card-title">{{ post.title }}</h3>
+        <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        <a href="{{ '/03_actualites/' | relative_url }}" class="btn btn-primary" style="margin-top: 1rem; font-size: 0.9rem;">
+          Lire la suite
+          <i class="fas fa-arrow-right btn-icon"></i>
+        </a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="{{ '/03_actualites/' | relative_url }}" class="btn btn-primary">
+      Voir toutes les actualités
+      <i class="fas fa-arrow-right btn-icon"></i>
+    </a>
+  </div>
+</section>
+
+<!-- Partners Preview Section -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Nos Partenaires</h2>
+    <p class="section-subtitle">
+      Une collaboration entre institutions académiques et services de sécurité
+    </p>
+  </div>
+  
+  <div style="display: flex; justify-content: center; align-items: center; gap: 3rem; flex-wrap: wrap; padding: 2rem;">
+    <div class="fade-in" style="text-align: center;">
+      <img src="{{ '/public/ektacom.jpg' | relative_url }}" alt="EKTACOM" style="max-width: 150px; height: 100px; object-fit: contain;">
+    </div>
+    <div class="fade-in" style="text-align: center;">
+      <img src="{{ '/public/xlim.png' | relative_url }}" alt="XLIM" style="max-width: 150px; height: 100px; object-fit: contain;">
+    </div>
+    <div class="fade-in" style="text-align: center;">
+      <img src="{{ '/public/borili.png' | relative_url }}" alt="Centre Borelli" style="max-width: 150px; height: 100px; object-fit: contain;">
+    </div>
+    <div class="fade-in" style="text-align: center;">
+      <img src="{{ '/public/ceraps.jpg' | relative_url }}" alt="CERAPS" style="max-width: 150px; height: 100px; object-fit: contain;">
+    </div>
+    <div class="fade-in" style="text-align: center;">
+      <img src="{{ '/public/snps.png' | relative_url }}" alt="SNPS" style="max-width: 150px; height: 100px; object-fit: contain;">
+    </div>
+  </div>
+  
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="{{ '/01_partenaire/' | relative_url }}" class="btn btn-primary">
+      En savoir plus sur nos partenaires
+      <i class="fas fa-arrow-right btn-icon"></i>
+    </a>
+  </div>
+</section>
