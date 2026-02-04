@@ -1,0 +1,62 @@
+/* custom.css 
+   Auteur : A. SENDJASNI */
+
+/* General Body and Typography */
+body {
+  font-family: Arial, sans-serif; /* Set default font */
+  font-size: 16px; /* Default font size */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif; /* Font for headings */
+}
+
+.post {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.post.open {
+  max-height: 1000px; /* Adjust if needed */
+}
+
+.post-preview {
+  margin-bottom: 20px;
+}
+
+.post-preview h2 a {
+  cursor: pointer;
+}
+
+.post-content {
+  display: none; /* Initially hide the post content */
+}
+
+.post-content.open {
+  display: block; /* Show post content when opened */
+}
+
+/* Image Layout */
+.image-row {
+  display: flex; /* Utilisation de flexbox pour aligner les colonnes */
+  justify-content: center; /* Centrer les colonnes horizontalement */
+  align-items: flex-start; /* Aligner les colonnes en haut */
+  margin-bottom: 20px; /* Espacement entre les lignes */
+}
+
+.image-column {
+  flex: 1; /* Les colonnes auront une largeur égale */
+  margin: 0 10px; /* Espacement entre les colonnes */
+
+}
+
+.image-column img {
+  max-width: 100%; /* Image occupe toute la largeur de sa colonne */
+  height: auto; /* Hauteur proportionnelle à la largeur */
+  max-height: 300px; /* Limite la hauteur de l'image */
+}
+
+.image-column img:hover {
+  transform: scale(1.05); /* Optional slight zoom on hover */
+}
