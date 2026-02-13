@@ -9,7 +9,7 @@ Les partenaires du projet IMPROVED se sont réunis pour une séance de travail d
 {% raw %}
 <div class="image-row">
   <div class="image-column">
-    <a href="/public/ecully.jpg" target="_blank">
+    <a href="/public/ecully_2025.png" target="_blank">
       <img src="/public/ecully_2025.png" alt="Cliquez pour voir la photo en plein écran">
     </a>
   </div>
