@@ -3,7 +3,7 @@ layout: post
 title: Séance d'acquisition vidéo sur le circuit de Lyon
 ---
 
-Le projet **IMPROVD** franchit une nouvelle étape ! 
+Le projet **IMPROVED** franchit une nouvelle étape ! 
 
 Les partenaires du consortium se sont réunis à **Saint-Laurent-de-Mure**, près de Lyon, pour une séance intensive d'acquisition de données vidéo. 
 
