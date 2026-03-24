@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Séance d'aquisition video
+title: Séance d'acquisition vidéo sur le circuit de Lyon
 ---
-Séance d'aquisition video à Saint Laurent de Mûre, Lyon. 
 
-Les partenaires du projet IMPROVED se sont réunis pour une séance d'aquition de video sur le circuit de Saint Laurent de Mûre.
+Le projet **IMPROVD** franchit une nouvelle étape ! 
+
+Les partenaires du consortium se sont réunis à **Saint-Laurent-de-Mure**, près de Lyon, pour une séance intensive d'acquisition de données vidéo. 
+
+Cette campagne de mesures, réalisée sur circuit, a permis de capturer des séquences video dans des conditions réelles de circulation. Ces données sont essentielles pour entraîner et valider nos modèles de super-résolution, notamment pour le challenge **XLPSR** associé à la conférence **ICIP 2026**.
+
+Un grand merci à toutes les équipes présentes pour la réussite de cette collecte de données sur le terrain.
 
 {% raw %}
 <div class="image-row">

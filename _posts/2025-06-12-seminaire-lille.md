@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Journée d'étude sur l'IA et Police
+title: Journée d'étude "IA et Police" à l'Université de Lille
 ---
-Journée d'étude sur l'IA et la POlice: le travaille policier à l'ère du numérique et de l'IA, Ceraps, Lille. 
 
-Des travaux réalisés dans le cadre du projet IMPROVED ont été présenté lors de ce séminaire en présence des étudiants de Master 2 du droit du numérique de l’Université de Lille et l’équipe de recherche en droit du numérique du CERAPS.
+Le projet **IMPROVD** s'est invité au cœur des réflexions juridiques lors de la journée d'étude : **"Le travail policier à l'ère du numérique et de l'IA"**, organisée par le **CERAPS** à Lille.
+
+À cette occasion, les avancées et travaux réalisés dans le cadre du projet ont été présentés devant un public d'experts et de futurs spécialistes :
+* Les étudiants du **Master 2 Droit du Numérique** de l’Université de Lille.
+* L’équipe de recherche en **Droit du Numérique du CERAPS**.
+
+Cette rencontre a permis d'échanger sur les enjeux éthiques et juridiques de l'intelligence artificielle appliquée aux missions régaliennes, soulignant l'importance d'un cadre réglementaire robuste pour accompagner l'innovation technologique.
 
 {% raw %}
 <div class="image-row">
