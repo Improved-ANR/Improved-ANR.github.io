@@ -9,8 +9,8 @@ Les partenaires du projet IMPROVED se sont réunis pour une séance de travail d
 {% raw %}
 <div class="image-row">
   <div class="image-column">
-    <a href="/public/ekta_2026.png" target="_blank">
-      <img src="/public/ekta_2026.png" alt="Cliquez pour voir la photo en plein écran">
+    <a href="/public/ekta_2026.jpeg" target="_blank">
+      <img src="/public/ekta_2026.jpeg" alt="Cliquez pour voir la photo en plein écran">
     </a>
   </div>
 </div>
