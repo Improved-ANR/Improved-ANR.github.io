@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Réunion plénière du projet IMPROVED chez EKTACOM
+title: Reunion trimestrielle du consortium du 29 Juin 2026
 ---
 Réunion plénière du projet au EKTACOM, Les Ulis. 
 
