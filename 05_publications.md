@@ -111,7 +111,7 @@ permalink: /publications/
       var html = '';
       var currentYear = null;
 
-      docs.forEach(function (doc) {
+            docs.forEach(function (doc) {
         var year = doc.publicationDate_s ? doc.publicationDate_s.slice(0, 4) : 'Non daté';
 
         if (year !== currentYear) {
@@ -119,8 +119,8 @@ permalink: /publications/
           currentYear = year;
         }
 
-        var type = DOC_TYPES[doc.docType_s] || doc.docType_s || '';
-        var label = (doc.label_s && doc.label_s[0]) || doc.label_s || '';
+        var type = DOC_TYPES[doc.docType_s] || '';
+        var label = Array.isArray(doc.label_s) ? doc.label_s[0] : (doc.label_s || '');
         var link = doc.uri_s || ('https://hal.science/' + doc.halId_s);
 
         html += '<div class="hal-item">' +
