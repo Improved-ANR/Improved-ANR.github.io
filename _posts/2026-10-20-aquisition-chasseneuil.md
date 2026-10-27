@@ -12,8 +12,8 @@ Ces travaux permettent de mieux comprendre jusqu'où le traitement d'image et l'
 {% raw %}
 <div class="image-row">
   <div class="image-column">
-    <a href="/public/aquition_video_chassneuil.png" target="_blank">
-      <img src="/public/aquition_video.png" alt="Cliquez pour voir la photo en plein écran">
+    <a href="/public/aquition_video_chassneuil.jpg" target="_blank">
+      <img src="/public/aquition_video_chassneuil.jpg" alt="Cliquez pour voir la photo en plein écran">
     </a>
   </div>
 </div>
